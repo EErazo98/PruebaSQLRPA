@@ -22,4 +22,4 @@ LIMIT 1;
 --Ejercicio SQL 4: Actualizar el Estado de Pedidos Antiguos
 UPDATE Pedido
 SET estado = 'archivado'
-WHERE fecha < '2024-01-01';
+WHERE fecha_pedido < '2024-01-01';
